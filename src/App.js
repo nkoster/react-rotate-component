@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Rotate from './components/Rotate'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <Rotate>
+          <img src={logo} className="App-logo" alt="logo" />
+          test
+        </Rotate>
+        <Rotate>
+          <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+          </p>
+        </Rotate>
         <a
           className="App-link"
           href="https://reactjs.org"
